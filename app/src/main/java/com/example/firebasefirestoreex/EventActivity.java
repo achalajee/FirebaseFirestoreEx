@@ -21,7 +21,7 @@ public class EventActivity extends AppCompatActivity {
         setContentView(R.layout.event_layout);
 
         Toolbar tb = findViewById(R.id.toolbar);
-        setSupportActionBar(tb);
+//        setSupportActionBar(tb);
         tb.setSubtitle("Firestore");
 
         fm = getSupportFragmentManager();

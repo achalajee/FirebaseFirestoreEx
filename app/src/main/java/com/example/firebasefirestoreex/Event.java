@@ -11,6 +11,9 @@ public class Event  implements Parcelable {
     private String startTime;
     private String endTime;
 
+    public Event() {
+    }
+
     // Parcelling part
     public Event(Parcel in){
         this.id = in.readString();
